@@ -527,5 +527,26 @@ margin-bottom: 16px;
     width: 264px;
    
 }
+.text-subscribe{
+    color:  #FFFFFF;
+font-size: 16px;
+font-style: normal;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.2em;
+}
+.button-subscribe{
+    display: inline-flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 4px;
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    cursor: pointer;
+    
 
-
+}
+.icon-frame{
+    fill: #FFFFFF;
+}
