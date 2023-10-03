@@ -560,7 +560,7 @@ margin-bottom: 16px;
 .input-email::placeholder{
     color: #FFFFFF;
 }
-.bottom-submit{
+.button-submit{
     min-width: 165px;
     height: 40px; 
     display: flex;
