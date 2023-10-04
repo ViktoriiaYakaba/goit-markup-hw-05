@@ -578,6 +578,13 @@ margin-left: 80px;
     margin-left: 16px;
 fill: #FFFFFF;
 }
+.modal .is-open{
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1), visibility 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
 .modal{
     position: fixed;
     top: 0;
@@ -622,10 +629,15 @@ fill: #FFFFFF;
     background-color: #404bbf;
     border: none; 
 }
-.btn-esc-item:focus,
-.btn-esc-item:hover{
-    fill: #ffffff;
+.btn-esc-item{
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.btn-esc-item:hover,
+.btn-esc-item:focus{
+    fill: #ffffff;
+    
+}
+
 .modal-paragraf{
     font-weight: 500;
     font-size: 16px;
@@ -656,7 +668,8 @@ fill: #FFFFFF;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.input-icon-item:focus{
+.input-icon-item:focus
+{
     border-color: #4D5AE5; 
 }
 .icon_item{
@@ -677,6 +690,7 @@ fill: #FFFFFF;
     height: 120px; 
     font-size: 12px; 
     line-height: 1.17;
+    margin-bottom: 8px;
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -693,20 +707,9 @@ fill: #FFFFFF;
 .privasy{
     margin-bottom: 24px; 
 }
-.acept-privasy{
-    font-size: 12px; 
+.text-privasy{
+    font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
-}
-.span-privasy{
-    width: 16px; 
-    height: 16px;
-    border: 1px solid rgba(46, 47, 66, 0.4);
-    border-radius: 2px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    display: inline-flex; 
-    align-items: center;
-    justify-content: center;
-    fill: transparent; 
 }
