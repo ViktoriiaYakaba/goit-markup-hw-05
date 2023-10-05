@@ -760,7 +760,7 @@ flex-shrink: 0;
 .chek-privasy:checked + .text-privasy > .span-privasy{
     background-color: #404BBF;
     border: none;
-    fill: #FFFFFF;
+    fill: #F4F4FD;
     border-color: #404BBF;
   }
 .privasy-link{
