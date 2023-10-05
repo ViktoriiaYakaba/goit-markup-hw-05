@@ -625,7 +625,7 @@ fill: #FFFFFF;
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 0;
 	cursor: pointer;
-    color: #E7E9FC;
+    background-color: #e7e9fc;
 
 	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
 		border 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -689,7 +689,7 @@ fill: #FFFFFF;
     left: 16px;
     top: 50%;
     transform: translateY(-50%);
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon_item:focus{
     fill: #4D5AE5; 
@@ -704,6 +704,7 @@ fill: #FFFFFF;
     color: #8e8f99;
     display: block;
     margin-bottom: 4px; 
+    letter-spacing: 0.04em; 
     
 }
 
@@ -750,8 +751,34 @@ fill: #FFFFFF;
     
 }
 
-.chek-privasy:checked + .text-privasy> .btn-acpt{
-    background-color: #404BBF;
-    fill: #404bbf;
+.chek-privasy:checked + .span-privasy> .btn-acpt {
+background-color: #404bbf;
+border: none;
+fill: #F4F4FD;
+}
+.privasy-link{
+    color: #4d5ae5;
+text-decoration: underline;
+}
+.button-send{
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+.bnt-send{
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
     border: none;
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
